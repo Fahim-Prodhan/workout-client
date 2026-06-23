@@ -7,8 +7,8 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        // target: 'http://localhost:5000',
-        target: 'https://workout-zeta-wine.vercel.app',
+        target: 'http://localhost:5000',
+        // target: 'https://workout-zeta-wine.vercel.app',
         changeOrigin: true,
       },
     },
