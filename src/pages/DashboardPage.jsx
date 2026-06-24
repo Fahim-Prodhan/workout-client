@@ -54,7 +54,7 @@ export default function DashboardPage({
           <div className="card-icon">💧</div>
           <div className="card-label">পানি পান</div>
           <div className="card-value" style={{ color: 'var(--accent2)' }}>
-            {(waterCount * 0.25).toFixed(1)}L
+            {(waterCount * 0.25).toFixed(2)}L
           </div>
           <div className="card-sub">লক্ষ্য: ৩ লিটার</div>
           <div className="progress-wrap">
