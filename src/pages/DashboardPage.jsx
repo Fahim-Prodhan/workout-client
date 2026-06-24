@@ -91,7 +91,7 @@ export default function DashboardPage({
             const key = d.toDateString();
             const done = streakDates.includes(key);
             const jsDay = d.getDay(); // 0=Sun
-            const bnIdx = jsDay === 0 ? 6 : jsDay - 1;
+            const bnIdx = jsDay === 6 ? 0 : jsDay + 1;
             return (
               <div
                 key={i}
