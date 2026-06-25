@@ -23,7 +23,7 @@ export default function DashboardPage({
   }
 
   const waterPct = Math.min((waterCount / 12) * 100, 100);
-  const workoutDone = workoutCompleted || completedKeys.some((k) => k.startsWith(todayKey));
+  const workoutDone = completedKeys.some((k) => k.startsWith(todayKey));
 
   return (
     <div className="fade-in">
