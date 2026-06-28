@@ -15,10 +15,10 @@ export const WORKOUTS = [
     day: 'রবিবার', focus: 'Back & Bicep (Pull)',
     tag: 'tag-pull', tagLabel: 'Pull', color: '#22d3ee',
     exercises: [
-      { name: 'Chair Row', sets: '৩ × ১২' },
+      { name: 'Towel Doorframe Row', sets: '৩ × ১২' },
       { name: 'Superman Hold', sets: '৩ × ১৫' },
-      { name: 'Chin-up (দরজার ফ্রেমে)', sets: '৩ × ৮' },
-      { name: 'Towel Row', sets: '২ × ১২' },
+      { name: 'Doorframe Row (দরজার দুই পাশ ধরে পিছনে হেলে টানো)', sets: '৩ × ১২' },
+      { name: 'Reverse Snow Angel (পেটে শুয়ে)', sets: '৩ × ১২' },
     ],
   },
   {
